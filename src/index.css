@@ -24,18 +24,18 @@ code {
 }
 .centered {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 67%;
+  left: 78%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
   font-size: 60px;
 }
 .centered1 {
   position: absolute;
-  top: 38%;
-  left: 50%;
+  top: 75%;
+  left: 78%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
   font-size: 30px;
 }
 .centered2 {
@@ -53,6 +53,84 @@ code {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 27px;
+}
+.centered4 {
+  position: absolute;
+  top: 80%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+.centered5 {
+  position: absolute;
+  top: 87%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+.centered6 {
+  position: absolute;
+  top: 117%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 30px;
+
+}
+.centered7 {
+  position: absolute;
+  top: 167%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
+  font-weight: normal;
+  
+}
+.centered8 {
+  position: absolute;
+  top: 147%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
+  font-weight: normal;
+  width:"30%";
+  
+}
+.centered9 {
+  position: absolute;
+  top: 180%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 33px;
+}
+.centered10 {
+  position: absolute;
+  top: 200%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 27px;
+}
+.centered11 {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 60px;
+}
+.centered12 {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 35px;
 }
 .text{
   text-align: center;
@@ -92,6 +170,75 @@ code {
       gap:10px;
       border-radius: 12px;
       }
+      .poster-modal3{
+        width: 50%;
+        object-fit: cover;
+        height:  50%;
+        gap:3px;
+        border-radius: 12px;
+        }
+     
   .zoom:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .zoom1:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+  }
+  
+  .test{
+
+    color: #393c41;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 25px;
+   padding-right: 50px;
+   width:520px;
+  
+  }
+  .hover1{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    padding:"10px";
+    width:"100%";
+    
+  }
+  .fog{
+    display: flex;
+    gap:40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(41, 39, 39);
+    font-weight: 500PX;
+    font-size: 13px;
+    
+  }
+  .hover{
+    display: flex;
+    position: relative;
+  }
+  .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    margin: 14px;
+    text-align: center;
+  }
+  .key{
+    gap:5px
+  }
+  .fog{
+    display: flex;
+    gap:40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    color: rgb(41, 39, 39);
+    font-weight: 500PX;
+    font-size: 13px;
+    
   }

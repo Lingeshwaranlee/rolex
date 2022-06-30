@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
+import { Booking } from "./Booking";
 import { Cellini } from "./Cellini";
 import { Datejust } from "./Datejust";
 import { Daydate } from "./Daydate";
@@ -7,10 +8,12 @@ import { Gemset } from "./Gemset";
 import { Goldsteel } from "./Goldsteel";
 import { Goldwatches } from "./Goldwatches";
 import { Ladydate } from "./Ladydate";
+import { Login } from "./Login";
 import { Menwatches } from "./Menwatches";
 import { Navbar } from "./Navbar";
 import { Oyster } from "./Oyster";
 import { Rolex } from "./Rolex";
+import { Sign } from "./Sign";
 import { Skydweller } from "./Skydweller";
 import { Steelwatches } from "./Steelwatches";
 import { Watches } from "./Watches";
@@ -66,6 +69,15 @@ function App() {
         </Route>
         <Route exact path="/gem">
           <Gemset />
+        </Route>
+        <Route exact path="/book">
+          <Booking />
+        </Route>
+        <Route exact path="/login">
+          <Login />
+        </Route>
+        <Route exact path="/sign">
+          <Sign />
         </Route>
       </Switch>
     </div>

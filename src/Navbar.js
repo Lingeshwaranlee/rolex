@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import {GiQueenCrown} from 'react-icons/gi';
+import { BiSearchAlt2} from 'react-icons/bi';
 export function Navbar() {
   const history = useHistory();
   return (
@@ -19,6 +20,12 @@ export function Navbar() {
             </Button>
             <Button color="inherit" onClick={() => history.push("/world")}>
               WORLD OF ROLEX
+            </Button>
+            <Button color="inherit" style={{paddingLeft:"65%"}}>
+            <BiSearchAlt2/>  SEARCH
+            </Button>
+            <Button color="inherit" onClick={() => history.push("/login")}>
+             LOGIN
             </Button>
           </Toolbar>
         </AppBar>
